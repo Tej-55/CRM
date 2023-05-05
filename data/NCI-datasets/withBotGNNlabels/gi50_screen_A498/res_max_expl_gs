@@ -1,0 +1,33 @@
+Namespace(explain=False, file='./NCI-config', gpu=False, num_epochs=10, output='./data/NCI-datasets/withBotGNNlabels/gi50_screen_A498/res_max_expl_gs', saved_model=None, tune=True, verbose=False)
+***Loading data***
+***Creating CRM structure***
+***Get Best Config***
+[2m[36m(train_with_config pid=3313)[0m Patience exceeded. Stopping training.
+[2m[36m(train_with_config pid=3308)[0m Patience exceeded. Stopping training.
+[2m[36m(train_with_config pid=3314)[0m Patience exceeded. Stopping training.
+{'lr': 0.01}
+***Training CRM***
+Patience exceeded. Stopping training.
+***Train Metrics***
+              precision    recall  f1-score   support
+
+           0     0.7838    0.8573    0.8189       778
+           1     0.8954    0.8377    0.8656      1134
+
+    accuracy                         0.8457      1912
+   macro avg     0.8396    0.8475    0.8423      1912
+weighted avg     0.8500    0.8457    0.8466      1912
+
+-------------------------------------
+***Test Metrics***
+              precision    recall  f1-score   support
+
+           0     0.7131    0.8102    0.7585       411
+           1     0.8600    0.7814    0.8188       613
+
+    accuracy                         0.7930      1024
+   macro avg     0.7865    0.7958    0.7887      1024
+weighted avg     0.8010    0.7930    0.7946      1024
+
+-------------------------------------
+         
