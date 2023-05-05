@@ -1,0 +1,11 @@
+Number of Trials: 1000
+
+Trains:
+    Majority class: 1
+    Accuracy: 0.550000
+    Avg. Fidelity: 0.450033
+
+Chess:
+    Majority class: 0
+    Accuracy: 0.664972
+    Avg. Fidelity: 0.605218 (over all 3 test files)
