@@ -1,0 +1,167 @@
+rm: cannot remove 'models/*': No such file or directory
+2022-05-31 01:41:47.013102: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2022-05-31 01:41:47.036181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties: 
+pciBusID: 0000:03:00.0 name: Quadro P4000 computeCapability: 6.1
+coreClock: 1.48GHz coreCount: 14 deviceMemorySize: 7.92GiB deviceMemoryBandwidth: 226.62GiB/s
+2022-05-31 01:41:47.036328: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.036400: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.036460: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcufft.so.10'; dlerror: libcufft.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.036518: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcurand.so.10'; dlerror: libcurand.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.036575: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusolver.so.10'; dlerror: libcusolver.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.036632: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcusparse.so.10'; dlerror: libcusparse.so.10: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /usr/local/cuda-9.1/lib64
+2022-05-31 01:41:47.038835: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2022-05-31 01:41:47.038858: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1598] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2022-05-31 01:41:47.039143: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2022-05-31 01:41:47.049227: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3093085000 Hz
+2022-05-31 01:41:47.049550: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55a635e90610 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2022-05-31 01:41:47.049585: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2022-05-31 01:41:47.052015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-05-31 01:41:47.052037: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      
+2022-05-31 01:41:49.307625: W tensorflow/python/util/util.cc:329] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:From /home/dell5810/miniconda3/envs/drm/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py:1817: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+Dimension of Data ( Instances:  2434 , Features:  375  )
+Dimension of X:  (2434, 371)
+Dimension of y:  (2434, 5)
+
+Dimension of Data_test ( Instances:  1044 , Features:  375  )
+Dimension of X:  (1044, 371)
+Dimension of y:  (1044, 5)
+5
+5_5
+5_5_5
+5_5_5_5
+5_5_5_10
+5_5_10
+5_5_10_5
+5_5_10_10
+5_10
+5_10_5
+5_10_5_5
+5_10_5_10
+5_10_10
+5_10_10_5
+5_10_10_10
+10
+10_5
+10_5_5
+10_5_5_5
+10_5_5_10
+10_5_10
+10_5_10_5
+10_5_10_10
+10_10
+10_10_5
+10_10_5_5
+10_10_5_10
+10_10_10
+10_10_10_5
+10_10_10_10
+Model Count: 1
+1/8 [==>...........................] - ETA: 0s - loss: 0.6373 - accuracy: 0.09388/8 [==============================] - 0s 837us/step - loss: 0.6463 - accuracy: 0.0328
+Val loss of the present model:  0.6463016867637634
+[Model Selected] Best val score:  0.6463016867637634 , Best model:  model_10_10_10_5.json
+Model Count: 2
+1/8 [==>...........................] - ETA: 0s - loss: 0.6407 - accuracy: 0.06258/8 [==============================] - 0s 801us/step - loss: 0.6448 - accuracy: 0.0738
+Val loss of the present model:  0.6448246836662292
+[Model Selected] Best val score:  0.6448246836662292 , Best model:  model_5_5.json
+Model Count: 3
+1/8 [==>...........................] - ETA: 0s - loss: 0.6383 - accuracy: 0.09388/8 [==============================] - 0s 1ms/step - loss: 0.6459 - accuracy: 0.0697
+Val loss of the present model:  0.6458591222763062
+Model Count: 4
+1/8 [==>...........................] - ETA: 0s - loss: 0.6429 - accuracy: 0.03128/8 [==============================] - 0s 732us/step - loss: 0.6470 - accuracy: 0.0246
+Val loss of the present model:  0.6470335125923157
+Model Count: 5
+1/8 [==>...........................] - ETA: 0s - loss: 0.6457 - accuracy: 0.78128/8 [==============================] - 0s 918us/step - loss: 0.6511 - accuracy: 0.8033
+Val loss of the present model:  0.6511414051055908
+Model Count: 6
+1/8 [==>...........................] - ETA: 0s - loss: 0.6413 - accuracy: 0.68758/8 [==============================] - 0s 897us/step - loss: 0.6458 - accuracy: 0.6721
+Val loss of the present model:  0.6457849144935608
+Model Count: 7
+1/8 [==>...........................] - ETA: 0s - loss: 0.6420 - accuracy: 0.09388/8 [==============================] - 0s 974us/step - loss: 0.6477 - accuracy: 0.0492
+Val loss of the present model:  0.6476911902427673
+Model Count: 8
+1/8 [==>...........................] - ETA: 0s - loss: 0.6407 - accuracy: 0.15628/8 [==============================] - 0s 988us/step - loss: 0.6463 - accuracy: 0.2049
+Val loss of the present model:  0.6463422775268555
+Model Count: 9
+1/8 [==>...........................] - ETA: 0s - loss: 0.6506 - accuracy: 0.03128/8 [==============================] - 0s 948us/step - loss: 0.6541 - accuracy: 0.0943
+Val loss of the present model:  0.6541067361831665
+Model Count: 10
+1/8 [==>...........................] - ETA: 0s - loss: 0.6358 - accuracy: 0.03128/8 [==============================] - 0s 784us/step - loss: 0.6437 - accuracy: 0.0246
+Val loss of the present model:  0.6436812877655029
+[Model Selected] Best val score:  0.6436812877655029 , Best model:  model_5_10_10_10.json
+Model Count: 11
+1/8 [==>...........................] - ETA: 0s - loss: 0.6524 - accuracy: 0.03128/8 [==============================] - 0s 917us/step - loss: 0.6568 - accuracy: 0.0246
+Val loss of the present model:  0.6567972898483276
+Model Count: 12
+1/8 [==>...........................] - ETA: 0s - loss: 0.6400 - accuracy: 0.03128/8 [==============================] - 0s 873us/step - loss: 0.6463 - accuracy: 0.0943
+Val loss of the present model:  0.6463378667831421
+Model Count: 13
+1/8 [==>...........................] - ETA: 0s - loss: 0.6367 - accuracy: 0.75008/8 [==============================] - 0s 857us/step - loss: 0.6422 - accuracy: 0.7746
+Val loss of the present model:  0.6422300338745117
+[Model Selected] Best val score:  0.6422300338745117 , Best model:  model_5_10_10.json
+Model Count: 14
+1/8 [==>...........................] - ETA: 0s - loss: 0.6384 - accuracy: 0.78128/8 [==============================] - 0s 725us/step - loss: 0.6452 - accuracy: 0.8033
+Val loss of the present model:  0.6452040076255798
+Model Count: 15
+1/8 [==>...........................] - ETA: 0s - loss: 0.6459 - accuracy: 0.09388/8 [==============================] - 0s 999us/step - loss: 0.6479 - accuracy: 0.0533
+Val loss of the present model:  0.6479011178016663
+Model Count: 16
+1/8 [==>...........................] - ETA: 0s - loss: 0.6392 - accuracy: 0.03128/8 [==============================] - 0s 827us/step - loss: 0.6470 - accuracy: 0.0246
+Val loss of the present model:  0.6470131874084473
+Model Count: 17
+1/8 [==>...........................] - ETA: 0s - loss: 0.6393 - accuracy: 0.78128/8 [==============================] - 0s 980us/step - loss: 0.6451 - accuracy: 0.8033
+Val loss of the present model:  0.6450914144515991
+Model Count: 18
+1/8 [==>...........................] - ETA: 0s - loss: 0.6406 - accuracy: 0.03128/8 [==============================] - 0s 748us/step - loss: 0.6467 - accuracy: 0.0246
+Val loss of the present model:  0.646729052066803
+Model Count: 19
+1/8 [==>...........................] - ETA: 0s - loss: 0.6291 - accuracy: 0.06258/8 [==============================] - 0s 770us/step - loss: 0.6383 - accuracy: 0.0738
+Val loss of the present model:  0.6382801532745361
+[Model Selected] Best val score:  0.6382801532745361 , Best model:  model_10_5.json
+Model Count: 20
+1/8 [==>...........................] - ETA: 0s - loss: 0.6405 - accuracy: 0.03128/8 [==============================] - 0s 834us/step - loss: 0.6463 - accuracy: 0.0246
+Val loss of the present model:  0.6463176608085632
+Model Count: 21
+1/8 [==>...........................] - ETA: 0s - loss: 0.6308 - accuracy: 0.03128/8 [==============================] - 0s 797us/step - loss: 0.6399 - accuracy: 0.0328
+Val loss of the present model:  0.6398985385894775
+Model Count: 22
+1/8 [==>...........................] - ETA: 0s - loss: 0.6378 - accuracy: 0.09388/8 [==============================] - 0s 1ms/step - loss: 0.6453 - accuracy: 0.0328
+Val loss of the present model:  0.6452779173851013
+Model Count: 23
+1/8 [==>...........................] - ETA: 0s - loss: 0.6467 - accuracy: 0.06258/8 [==============================] - 0s 800us/step - loss: 0.6523 - accuracy: 0.1066
+Val loss of the present model:  0.6522793769836426
+Model Count: 24
+1/8 [==>...........................] - ETA: 0s - loss: 0.6526 - accuracy: 0.03128/8 [==============================] - 0s 987us/step - loss: 0.6570 - accuracy: 0.0246
+Val loss of the present model:  0.656997561454773
+Model Count: 25
+1/8 [==>...........................] - ETA: 0s - loss: 0.6234 - accuracy: 0.06258/8 [==============================] - 0s 834us/step - loss: 0.6330 - accuracy: 0.0410
+Val loss of the present model:  0.6330469250679016
+[Model Selected] Best val score:  0.6330469250679016 , Best model:  model_5_10.json
+Model Count: 26
+1/8 [==>...........................] - ETA: 0s - loss: 0.6366 - accuracy: 0.62508/8 [==============================] - 0s 962us/step - loss: 0.6434 - accuracy: 0.7500
+Val loss of the present model:  0.6434393525123596
+Model Count: 27
+1/8 [==>...........................] - ETA: 0s - loss: 0.6478 - accuracy: 0.03128/8 [==============================] - 0s 1ms/step - loss: 0.6535 - accuracy: 0.0246
+Val loss of the present model:  0.653494656085968
+Model Count: 28
+1/8 [==>...........................] - ETA: 0s - loss: 0.6408 - accuracy: 0.06258/8 [==============================] - 0s 1ms/step - loss: 0.6410 - accuracy: 0.0574
+Val loss of the present model:  0.6409598588943481
+Model Count: 29
+1/8 [==>...........................] - ETA: 0s - loss: 0.6392 - accuracy: 0.03128/8 [==============================] - 0s 893us/step - loss: 0.6458 - accuracy: 0.0246
+Val loss of the present model:  0.6458036303520203
+Model Count: 30
+1/8 [==>...........................] - ETA: 0s - loss: 0.6415 - accuracy: 0.03128/8 [==============================] - 0s 960us/step - loss: 0.6475 - accuracy: 0.0246
+Val loss of the present model:  0.6474509239196777
+Traceback (most recent call last):
+  File "DLmodelsel_multilabel.py", line 110, in <module>
+    print(accuracy_score(y_test,y_pred))
+  File "/home/dell5810/miniconda3/envs/drm/lib/python3.7/site-packages/sklearn/utils/validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "/home/dell5810/miniconda3/envs/drm/lib/python3.7/site-packages/sklearn/metrics/_classification.py", line 187, in accuracy_score
+    y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+  File "/home/dell5810/miniconda3/envs/drm/lib/python3.7/site-packages/sklearn/metrics/_classification.py", line 91, in _check_targets
+    "and {1} targets".format(type_true, type_pred))
+ValueError: Classification metrics can't handle a mix of multilabel-indicator and continuous-multioutput targets
