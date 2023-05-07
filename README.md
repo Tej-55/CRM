@@ -18,7 +18,7 @@ A CRM consists of CRM-nodes (or CRM-neurons), where each node is associated with
 
 Given a (relational) data instance representing a train with some cars and their properties, as shown below, a CRM generates structed explanations shown below.
 <p align="center"  width="100%">
-    <img src="./Readme_Figs/train_example1.png" width="50%" title="An example of a data instance"/>
+    <img src="./Readme_Figs/train_example1.png" width="30%" title="An example of a data instance"/>
 </p>
 Structured explanation:
 <p align="center"  width="100%">
