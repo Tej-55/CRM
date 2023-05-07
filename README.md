@@ -29,7 +29,7 @@ For more information on how this done, please read the paper.
 
 ## Authors
 
-- CRM's core codebase is developed jointly with Devanshu Shah (@Devanshu24)[https://github.com/Devanshu24].
+- CRM's core codebase is developed jointly with Devanshu Shah [@Devanshu24](https://github.com/Devanshu24).
 
 ## How to run our code
 
