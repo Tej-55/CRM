@@ -29,7 +29,7 @@ For more information on how this done, please read the paper.
 
 ## Authors
 
-- CRM's core codebase is developed jointly with Devanshu Shah @Devanshu24.
+- CRM's core codebase is developed jointly with Devanshu Shah (@Devanshu24)[https://github.com/Devanshu24].
 
 ## How to run our code
 
@@ -69,9 +69,4 @@ Bibtex:
   journal={arXiv preprint arXiv:2206.00738},
   year={2022}
 }
-```
-
-APA:
-```
-Srinivasan, A., Baskar, A., Dash, T., & Shah, D. (2022). Composition of Relational Features with an Application to Explaining Black-Box Predictors. arXiv preprint arXiv:2206.00738.
 ```
