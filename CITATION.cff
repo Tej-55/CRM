@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: article
+authors:
+  - family-names: Srinivasan
+    given-names: Ashwin
+  - family-names: Baskar
+    given-names: A
+  - family-names: Dash
+    given-names: Tirtharaj
+  - family-names: Shah
+    given-names: Devanshu
+title: Composition of Relational Features with an Application to Explaining Black-Box Predictors
+doi: 10.48550/arXiv.2206.00738
+journal: arXiv preprint arXiv:2206.00738
+date-released: 2022-06-01
+url: https://doi.org/10.48550/arXiv.2206.00738
