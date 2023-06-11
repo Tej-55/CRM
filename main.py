@@ -6,7 +6,7 @@ import torch.nn.functional as F
 from sklearn.model_selection import train_test_split
 
 from crm.core import Network
-from crm.utils import (  # get_explanations,; train_distributed,
+from crm.utils import (
     get_best_config,
     get_max_explanations,
     get_metrics,
@@ -15,7 +15,6 @@ from crm.utils import (  # get_explanations,; train_distributed,
     make_dataset_cli,
     seed_all,
     train,
-    train_distributed,
 )
 
 
@@ -111,18 +110,6 @@ def main():
         X_train, y_train, test_size=0.2, random_state=24, stratify=y_train
     )
 
-    # train_distributed(
-    #     n,
-    #     X_train,
-    #     y_train,
-    #     args.num_epochs,
-    #     optimizer,
-    #     criterion,
-    #     X_val,
-    #     y_val,
-    #     num_workers=16,
-    # )
-
     train_losses, train_accs, val_losses, val_accs = train(
         n,
         X_train,
@@ -180,15 +167,4 @@ def main():
 
 
 if __name__ == "__main__":
-    """
-    import cProfile
-    import pstats
-
-    profiler = cProfile.Profile()
-    profiler.enable()
-    main()
-    profiler.disable()
-    stats = pstats.Stats(profiler).sort_stats("cumtime")
-    stats.print_stats()
-    """
     main()
