@@ -14,6 +14,9 @@ The paper is under review (status: Revision submitted) at the Machine Learning J
 
 Our repository of CRM [here](https://github.com/Devanshu24/crm) might not be maintained. The current repository is intended to be up-to-date with our newer results and further research extensions. Keep watching!
 
+**[Nov 14, 2023]** This paper was also presented at the [IJCLR 2023](https://ijclr2023.di.uniba.it/~ijclr2023/): [PPT](https://github.com/tirtharajdash/CRM/blob/main/IJCLR2023_CRM.pdf).\
+**[Oct 26, 2023]** The paper is now officially published by the [Machine Learning Journal](https://doi.org/10.1007/s10994-023-06399-6).
+
 ## What is a CRM?
 
 CRMs are _explainable_ deep neural networks, a neurosymbolic architecture in which each node in a neural network has an associated relational feature. While being independently explainable in nature, CRMs can also be used for generating structured proxy explanations for a black-box predictor.
