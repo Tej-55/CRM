@@ -137,10 +137,14 @@ For reference, some example commands are in `command.hist`.
 Bibtex:
 
 ```
-@article{srinivasan2022composition,
-  title={Composition of Relational Features with an Application to Explaining Black-Box Predictors},
+@article{srinivasan2023composition,
+  title={Composition of relational features with an application to explaining black-box predictors},
   author={Srinivasan, Ashwin and Baskar, A and Dash, Tirtharaj and Shah, Devanshu},
-  journal={arXiv preprint arXiv:2206.00738},
-  year={2022}
+  journal={Machine Learning},
+  pages={1--42},
+  year={2023},
+  doi={10.1007/s10994-023-06399-6},
+  publisher={Springer},
+  url={https://doi.org/10.1007/s10994-023-06399-6}
 }
 ```
