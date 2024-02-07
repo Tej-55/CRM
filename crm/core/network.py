@@ -40,10 +40,10 @@ class Network:
                 self.neurons[n_id].value = self.neurons[n_id].value + (
                     self.weights[(pred, n_id)] * self.neurons[pred].value
                 )
-                # print(f"New Value: {n_id} = {self.neurons[n_id].value}")
-                self.neurons[n_id].value = f_mapper[n_id] * self.neurons[
-                    n_id
-                ].activation_fn(self.neurons[n_id].value)
+            # print(f"New Value: {n_id} = {self.neurons[n_id].value}")
+            self.neurons[n_id].value = f_mapper[n_id] * self.neurons[
+                n_id
+            ].activation_fn(self.neurons[n_id].value)
         else:
             self.neurons[n_id].value = f_mapper[n_id]
         if type(self.neurons[n_id].value) == torch.Tensor:
